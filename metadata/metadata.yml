@@ -1,5 +1,5 @@
 metadata_version: 1
-name: swdb_dummy_1
-description: Basic structure of a capsule to be customized as needed.
+name: swdb_neural_encoding
+description: Workshop Module for questions regarding neural encoding
 authors:
-- name: AIND
+- name: SWDB
