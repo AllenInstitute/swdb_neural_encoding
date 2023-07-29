@@ -1,4 +1,4 @@
-# hash:sha256:139a29d4a535bab10c78220d0b8a84fcf921dc50b402120d16df325d6a1dd624
+# hash:sha256:0923a0dc5a17796c3f291e2dd462575d695b825267f784d0cd5c14ab5df04049
 FROM registry.codeocean.allenneuraldynamics.org/codeocean/jupyterlab:3.0.9-miniconda4.9.2-python3.8-ubuntu20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -13,3 +13,6 @@ RUN conda install -y --channel=conda-forge \
         pandas==1.4.2 \
         scikit-learn==1.1.1 \
     && conda clean -ya
+
+COPY postInstall /
+RUN /postInstall
