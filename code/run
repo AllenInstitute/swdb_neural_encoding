@@ -7,11 +7,11 @@ jupyter nbconvert \
 	--ExecutePreprocessor.allow_errors=True \
 	--ExecutePreprocessor.timeout=-1 \
 	--FilesWriter.build_directory=../results \
-	--execute Day1Workshop1.ipynb
+	--execute Solutions/Day1Workshop1_Solutions.ipynb
 
 jupyter nbconvert \
 	--to 'html' \
 	--ExecutePreprocessor.allow_errors=True \
 	--ExecutePreprocessor.timeout=-1 \
 	--FilesWriter.build_directory=../results \
-	--execute Day1Workshop2.ipynb
+	--execute Solutions/Day1Workshop2_Solutions.ipynb
