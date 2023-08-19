@@ -1,5 +1,10 @@
 metadata_version: 1
-name: swdb_neural_encoding_yoni_version
-description: Workshop Module for questions regarding neural encoding
+name: SWDB Neural Encoding
+description: Capsule for the Neural Encoding tutorial for the Summer Workshop on the
+  Dynamic Brain 2023.
 authors:
-- name: SWDB
+- name: Yoni Browning
+- name: Ryan Raut
+- name: Pamela Reinagel
+- name: Saskia de Vries
+- name: Michael Buice
